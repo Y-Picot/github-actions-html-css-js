@@ -14,14 +14,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
+      - name: install config
+        run: npm init @eslint/config
+      
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.2
 
 #       - name: install eslint last version
 #         run: npm install eslint --global
 
-#       - name: install config
-#         run: npm init @eslint/config
+
         
 #       - name: Run ESLint
 #         run: eslint *.js
