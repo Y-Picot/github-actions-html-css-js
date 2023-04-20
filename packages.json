@@ -1,0 +1,10 @@
+{
+  "name": "EsLint",
+  "version": "1.0.0",
+  "description": "Vérifie la qualité du Javascript",
+  "author": "YTBeater",
+  "homepage": "https://github.com/YTBeater/action_git_HTML_CSS_JS",
+  "dependencies": {
+    "eslint": "8.38.0"
+  }
+}
