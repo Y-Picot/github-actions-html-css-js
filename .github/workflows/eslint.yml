@@ -14,9 +14,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: install packages
+      - name: install eslint last version
         run: npm install eslint --global
+
+      - name: install config
+        run: npm init @eslint/config
 
       # Runs a set of commands using the runners shell
       - name: Run ESLint
