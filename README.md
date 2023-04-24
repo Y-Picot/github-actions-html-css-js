@@ -3,10 +3,11 @@
 # Exemple
 
 ![nom_dubadge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
+![nom_dubadge](https://img.shields.io/github/workflow/status/nom-du-repo/nom-du-workflow/lint?label=nom-du-label&logo=github)
 
 ## Badge shield.io
-![Tests unitaires](https://github.com/YTBeater/action_git_HTML_CSS_JS/workflows/Unit-Test/badge.svg)
-![Cross langages Lint](https://github.com/action_git_HTML_CSS_JS/workflows/Cross%20langages%20Lint/badge.svg)
+
+![Super Linter](https://img.shields.io/github/workflow/status/action_git_HTML_CSS_JS/Super-Linter/lint?label=Super%20Linter&logo=github)
 
 ## Badge jobs
 
