@@ -9,7 +9,7 @@ https://github.com/badges/shields/issues/8671
 
 ## Badge shield.io
 
-![SuperLinter - Shield Edition](https://img.shields.io/github/actions/workflow/status/action_git_HTML_CSS_JS/super-linter.yml?branch=main)
+![SuperLinter - Shield Edition](https://img.shields.io/github/actions/workflow/status/YTBeater/action_git_HTML_CSS_JS/.github/workflows/super-linter.yml?branch=main)
 
 ## Badge jobs
 
