@@ -2,10 +2,10 @@
 
 # Exemple
 
-![nom_du_badge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
+### ![nom_du_badge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
 
 https://github.com/badges/shields/issues/8671
-![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<user>/<repo>/sub_directory/test.yml?branch=main)
+### ![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<user>/<repo>/sub_directory/test.yml?branch=main)
 
 ## Badge shield.io
 
