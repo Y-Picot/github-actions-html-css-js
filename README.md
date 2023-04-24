@@ -7,7 +7,8 @@
 
 ## Badge shield.io
 
-![Super Lint Shield Edition](https://img.shields.io/github/workflow/status/action_git_HTML_CSS_JS/super_linter_hcjs/Super_Lint_Shield_Edition?label=Super%20Lint%20Shield%20Edition&logo=github)
+![Super Lint Shield Edition](https://img.shields.io/github/workflow/status/action_git_HTML_CSS_JS/super_linter_hcjs/Super_Lint_Shield_Edition?label=Super_Lint_Shield_Edition&logo=github)
+
 
 ## Badge jobs
 
