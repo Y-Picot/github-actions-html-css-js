@@ -2,12 +2,13 @@
 
 # Exemple
 
-![nom_dubadge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
-![nom_dubadge](https://img.shields.io/github/workflow/status/nom-du-repo/nom-du-workflow/lint?label=nom-du-label&logo=github)
+![nom_du_badge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
+![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<user>/<repo>/sub_directory/test.yml?branch=main)
 
 ## Badge shield.io
 
-![Super Lint Shield Edition](https://img.shields.io/github/workflow/status/action_git_HTML_CSS_JS/super_linter_hcjs/Super_Lint_Shield_Edition?label=Super_Lint_Shield_Edition&logo=github)
+![SuperLinter - Shield Edition](https://img.shields.io/github/actions/workflow/status/action_git_HTML_CSS_JS/super-linter.yml?branch=main)
+
 
 
 ## Badge jobs
