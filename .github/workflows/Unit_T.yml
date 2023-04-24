@@ -17,5 +17,5 @@ jobs:
 
       - name: Install et tests
         run: |
-          npm ci
+          npm install
           npm test
