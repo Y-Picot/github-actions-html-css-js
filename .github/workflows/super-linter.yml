@@ -1,6 +1,6 @@
 # https://github.com/github/super-linter
 
-name: Cross langages Lint
+name: Super linter (HTML,CSS,JS)
 on:
   push
 
