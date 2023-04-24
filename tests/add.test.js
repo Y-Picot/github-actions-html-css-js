@@ -1,4 +1,4 @@
-const add = require('../app.js');
+const add = require('../app');
 
 describe('Test de la fonction add', () => {
   test('doit retourner 3 si on passe 1 et 2 en paramètres', () => {
@@ -10,6 +10,8 @@ describe('Test de la fonction add', () => {
   });
 
   test('doit retourner NaN si on passe une chaîne de caractères et un nombre en paramètres', () => {
-    expect(add('hello', 2)).toBeNaN();
+    expect(() => add('hello', 2)).toThrow('Les paramètres doivent être des nombres');
+    expect(() => add(2, 'hello')).toThrow('Les paramètres doivent être des nombres');
+    expect(() => add('hello', 'world')).toThrow('Les paramètres doivent être des nombres');
   });
 });
