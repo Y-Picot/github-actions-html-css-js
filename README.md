@@ -1,11 +1,13 @@
-# action_git_html_css_js
+# GitHub Actions html/css/js
 
-# Exemple
+# Exemple Badge
 
-### ![nom_du_badge](https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg)
+1. Badge GitHub
+``` ![nom_du_badge] (https://github.com/nom-du-repo/workflows/nom_du_workflow/badge.svg) ```
 
-https://github.com/badges/shields/issues/8671
-### ![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<user>/<repo>/sub_directory/test.yml?branch=main)
+1. Badge Shield.io
+``` ![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<user>/<repo>/sub_directory/test.yml?branch=main) ```
+- Utile pour cette réalisation : https://github.com/badges/shields/issues/8671
 
 ## Badge shield.io
 
