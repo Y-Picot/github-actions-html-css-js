@@ -4,5 +4,6 @@ import { add_deno } from '../app-deno.js';
 Deno.test("test de la fonction add-deno", () => {
   assertEquals(add_deno(1, 2), 3);
   assertEquals(add_deno(2, -3), -1);
-  assertEquals(isNaN(add_deno("hello", 2)), true);
+  assertEquals(add_deno("hello", 2), NaN);
+  assertEquals(add_deno("1", "2"), NaN);
 });
