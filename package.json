@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "test":  "deno test --allow-all tests/add.test-deno.js",
   },
   "jest": {
     "testMatch": [
