@@ -1,15 +1,29 @@
 {
-  "name": "action_git_HTML_CSS_JS",
-  "version": "1.2.0",
+  "name": "github_actions_html_css_js",
+  "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest && deno test --allow-all"
   },
   "jest": {
     "testMatch": [
-      "<rootDir>/tests/**/*.test.js"
+      "<rootDir>/tests/**/*.test-jest.js"
     ]
   },
   "devDependencies": {
-    "jest": "^ 29.5.0"
-  }
+    "jest": "^29.5.0"
+  },
+  "deno": {
+    "test": {
+      "importmap": "./import_map.json",
+      "permissions": {
+        "net": true,
+        "env": true,
+        "run": true
+      },
+      "tests": [
+        "./tests/add.test-deno.js"
+      ]
+    }
+  },
+  "dependencies": {}
 }
