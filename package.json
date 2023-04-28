@@ -2,7 +2,7 @@
   "name": "action_git_HTML_CSS_JS",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest && deno test --allow-all tests/add.test-deno.js"
   },
   "jest": {
     "testMatch": [
