@@ -29,7 +29,7 @@ jobs:
         run: npm install -g deno
 
       - name: Run linter
-        run: deno lint *.js tests
+        run: find . -type f \( -iname "*.js" ! -path "./node_modules/*" ! -path "./tests/*.test-jest.js" \) -print0 | xargs -0 deno lint
 
       - name: Run Deno tests
         run: npm run test-deno
