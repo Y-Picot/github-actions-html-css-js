@@ -1,6 +1,6 @@
 const add_jest = require('../app-jest');
 
-describe('Test de la fonction add', () => {
+describe('Test de la fonction add-jest', () => {
   test('doit retourner 3 si on passe 1 et 2 en paramètres', () => {
     expect(add_jest(1, 2)).toBe(3);
   });
