@@ -29,7 +29,7 @@ jobs:
         run: npm install -g deno
 
       - name: Run linter
-        run: deno lint ./src
+        run: deno lint .
 
       - name: Run Deno tests
         run: npm run test-deno
