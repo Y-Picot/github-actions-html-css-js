@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
-import add from "../app.js;
+import add from "../app.js";
 
 Deno.test("test de la fonction add", () => {
   assertEquals(add(1, 2), 3);
