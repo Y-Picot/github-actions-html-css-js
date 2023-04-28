@@ -3,6 +3,6 @@ function add_jest(a, b) {
     throw new Error('Les paramètres doivent être des nombres');
   }
   return a + b;
-
+}
 
 module.exports = add_jest;
