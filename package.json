@@ -1,5 +1,5 @@
 {
-  "name": "github_actions_html_css_js",
+  "name": "action_git_HTML_CSS_JS",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
