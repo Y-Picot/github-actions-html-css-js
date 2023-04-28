@@ -5,11 +5,11 @@ function add_jest(a, b) {
   return a + b;
 }
 
-export default function add_deno(a, b) {
-  if (typeof a !== "number" || typeof b !== "number") {
-    throw new Error("Les paramètres doivent être des nombres");
+export const add_deno = (a, b) => {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Les paramètres doivent être des nombres');
   }
   return a + b;
-}
+};
 
 module.exports = add_jest;
