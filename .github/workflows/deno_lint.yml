@@ -25,8 +25,11 @@ jobs:
         with:
           deno-version: v1.x
 
+      - name: Install Deno CLI
+        run: npm install -g deno
+
       - name: Run linter
         run: deno lint
 
-      - name: Run tests
-        run: deno test --allow-all tests/add.test-deno.js
+      - name: Run Deno tests
+        run: npm run test-deno
