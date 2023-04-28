@@ -1,4 +1,4 @@
-const add_jest = require('../app');
+const add_jest = require('../app-jest');
 
 describe('Test de la fonction add', () => {
   test('doit retourner 3 si on passe 1 et 2 en paramètres', () => {
