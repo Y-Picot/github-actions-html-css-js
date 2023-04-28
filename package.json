@@ -2,7 +2,7 @@
   "name": "github_actions_html_css_js",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest && deno test --allow-all"
+    "test": "jest"
   },
   "jest": {
     "testMatch": [
@@ -12,18 +12,4 @@
   "devDependencies": {
     "jest": "^29.5.0"
   },
-  "deno": {
-    "test": {
-      "importmap": "./import_map.json",
-      "permissions": {
-        "net": true,
-        "env": true,
-        "run": true
-      },
-      "tests": [
-        "./tests/add.test-deno.js"
-      ]
-    }
-  },
-  "dependencies": {}
 }
