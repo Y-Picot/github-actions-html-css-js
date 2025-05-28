@@ -1,5 +1,13 @@
 # GitHub Actions HTML/CSS/JS
 
+### Statut des Actions GitHub
+![Tests Unitaires](https://github.com/Y-Picot/github-actions-html-css-js/workflows/unit_tests/badge.svg)
+![Linting](https://github.com/Y-Picot/github-actions-html-css-js/workflows/super_linter_hcjs/badge.svg)
+![Tests Deno](https://github.com/Y-Picot/github-actions-html-css-js/workflows/deno_lint/badge.svg)
+
+### Exemple Badge Shield.io
+![Statut des Actions](https://img.shields.io/github/actions/workflow/status/Y-Picot/github-actions-html-css-js/unit_tests.yml?branch=main)
+
 ## Description
 Ce projet est un exemple d'utilisation des GitHub Actions pour automatiser les tests, le linting et d'autres tâches pour un projet HTML/CSS/JS. Il est conçu pour être didactique et facile à utiliser.
 
@@ -69,16 +77,6 @@ Un fichier `.gitignore` a été ajouté pour exclure les fichiers et dossiers su
 
 ### Nom du dépôt
 - Utilisez des noms descriptifs en kebab-case (ex. `action-git-html-css-js`).
-
-## Badges
-
-### Statut des Actions GitHub
-![Tests Unitaires](https://github.com/Y-Picot/github-actions-html-css-js/workflows/unit_tests/badge.svg)
-![Linting](https://github.com/Y-Picot/github-actions-html-css-js/workflows/super_linter_hcjs/badge.svg)
-![Tests Deno](https://github.com/Y-Picot/github-actions-html-css-js/workflows/deno_lint/badge.svg)
-
-### Exemple Badge Shield.io
-![Statut des Actions](https://img.shields.io/github/actions/workflow/status/Y-Picot/github-actions-html-css-js/unit_tests.yml?branch=main)
 
 ## Contribuer
 Les contributions sont les bienvenues ! Veuillez suivre les étapes suivantes :
