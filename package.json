@@ -1,5 +1,5 @@
 {
-  "name": "action_git_HTML_CSS_JS",
+  "name": "github-actions-html-css-js",
   "version": "1.0.0",
   "scripts": {
     "test-jest": "jest",
@@ -11,6 +11,6 @@
     ]
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.7.0"
   }
 }
