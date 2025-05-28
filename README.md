@@ -72,15 +72,13 @@ Un fichier `.gitignore` a été ajouté pour exclure les fichiers et dossiers su
 
 ## Badges
 
-### Exemple Badge GitHub
-```markdown
-![nom_du_badge](https://github.com/<votre-utilisateur>/<nom-du-repo>/workflows/<nom_du_workflow>/badge.svg)
-```
+### Statut des Actions GitHub
+![Tests Unitaires](https://github.com/Y-Picot/github-actions-html-css-js/workflows/unit_tests/badge.svg)
+![Linting](https://github.com/Y-Picot/github-actions-html-css-js/workflows/super_linter_hcjs/badge.svg)
+![Tests Deno](https://github.com/Y-Picot/github-actions-html-css-js/workflows/deno_lint/badge.svg)
 
 ### Exemple Badge Shield.io
-```markdown
-![nom_du_badge](https://img.shields.io/github/actions/workflow/status/<votre-utilisateur>/<nom-du-repo>/<chemin_du_workflow>.yml?branch=main)
-```
+![Statut des Actions](https://img.shields.io/github/actions/workflow/status/Y-Picot/github-actions-html-css-js/unit_tests.yml?branch=main)
 
 ## Contribuer
 Les contributions sont les bienvenues ! Veuillez suivre les étapes suivantes :
