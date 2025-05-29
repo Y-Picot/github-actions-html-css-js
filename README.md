@@ -13,7 +13,7 @@ Ce projet est un exemple d'utilisation des GitHub Actions pour automatiser les t
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com//Y-Picot/github-actions-html-css-js.git
+   git clone https://github.com/Y-Picot/github-actions-html-css-js.git
    ```
 
 2. Accédez au dossier du projet :
